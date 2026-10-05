@@ -1,5 +1,11 @@
 # mini-SWE-agent overview
 
+## Personal development workflow
+
+- Develop, commit, and push directly on `main`; do not create feature branches or pull requests unless requested.
+- Push to `origin`: `https://github.com/ZimaAI/test-mini-swe-agent.git`.
+- Keep the original repository as `upstream`: `https://github.com/SWE-agent/mini-swe-agent.git`.
+
 - mini-SWE-agent implements an AI software engineering agent that solves github issues and similar programming challenges
 - The idea of this project is to write the simplest, smallest, most readable agent.
 
