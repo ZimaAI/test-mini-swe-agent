@@ -66,6 +66,7 @@ nav:
       - "<code>mini</code>": usage/mini.md
       - "Config": usage/config.md
       - "SWE-bench": usage/swebench.md
+      - "TencentDB knowledge": usage/tencentdb.md
       - "ProgramBench": usage/programbench.md
       - "Inspector": usage/inspector.md
       - "Output files": usage/output_files.md

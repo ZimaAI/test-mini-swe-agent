@@ -1,0 +1,6 @@
+# Overlay after mini.yaml or swebench.yaml and your model settings.
+# Credentials: TDAI_MEMORY_KEY; identities: TDAI_TEAM_ID / TDAI_AGENT_ID.
+model:
+  model_class: tencentdb
+  knowledge_enabled: false
+  cost_tracking: ignore_errors
