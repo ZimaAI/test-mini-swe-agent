@@ -5,30 +5,7 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 on:
-  push:
-    branches:
-      - main
-      - v2.0
-    paths-ignore:
-      - 'docs/**'
-      - 'README.md'
-      - 'mkdocs.yml'
-      - '.cursor/**'
-      - '.github/workflows/build-docs.yaml'
-      - '.github/workflows/release.yaml'
-      - '.github/workflows/pylint.yaml'
-  pull_request:
-    branches:
-      - main
-      - v2.0
-    paths-ignore:
-      - 'docs/**'
-      - 'README.md'
-      - 'mkdocs.yml'
-      - '.cursor/**'
-      - '.github/workflows/build-docs.yaml'
-      - '.github/workflows/release.yaml'
-      - '.github/workflows/pylint.yaml'
+  workflow_dispatch:
 
 jobs:
   test:

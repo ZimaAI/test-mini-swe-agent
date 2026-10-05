@@ -8,8 +8,6 @@ on:
         required: false
         default: false
         type: boolean
-  release:
-    types: [published]
 
 jobs:
   build-and-publish:

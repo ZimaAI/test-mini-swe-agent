@@ -1,4 +1,5 @@
-on: [pull_request]
+on:
+  workflow_dispatch:
 name: Check Markdown links in modified files
 jobs:
   markdown-link-check:

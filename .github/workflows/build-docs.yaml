@@ -1,15 +1,7 @@
 name: build-docs
 
 on:
-  push:
-    branches:
-      - main
-      - v1
-      - "build-docs-*"
-  pull_request:
-    branches:
-      - main
-      - v1
+  workflow_dispatch:
 
 # Prevent concurrent runs that could conflict when pushing to gh-pages
 concurrency:
