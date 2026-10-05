@@ -5,13 +5,13 @@
       
       
       
-        <link rel="canonical" href="https://mini-swe-agent.com/latest/advanced/control_flow/">
+        <link rel="canonical" href="https://mini-swe-agent.com/latest/usage/tencentdb/">
       
       
-        <link rel="prev" href="../../usage/python_bindings/">
+        <link rel="prev" href="../swebench/">
       
       
-        <link rel="next" href="../cookbook/">
+        <link rel="next" href="../programbench/">
       
       
         
@@ -22,7 +22,7 @@
     
     
       
-        <title>Understanding the agent - mini-SWE-agent documentation</title>
+        <title>TencentDB knowledge - mini-SWE-agent documentation</title>
       
     
     
@@ -115,7 +115,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#agent-control-flow" class="md-skip">
+        <a href="#tencentdb" class="md-skip">
           Skip to content
         </a>
       
@@ -131,7 +131,7 @@
               </button>
             
             
-<a href="../../usage/programbench/">
+<a href="../programbench/">
   🎉 Run mini-swe-agent on our new &amp; extremely challenging benchmark, ProgramBench
 </a>
 
@@ -173,7 +173,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Understanding the agent
+              TencentDB knowledge
             
           </span>
         </div>
@@ -532,8 +532,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -558,11 +560,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" checked="">
         
           
           <label class="md-nav__link" for="__nav_1_3" id="__nav_1_3_label" tabindex="0">
@@ -583,7 +585,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -601,7 +603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage/mini/" class="md-nav__link">
+      <a href="../mini/" class="md-nav__link">
         
   
   
@@ -629,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage/config/" class="md-nav__link">
+      <a href="../config/" class="md-nav__link">
         
   
   
@@ -657,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage/swebench/" class="md-nav__link">
+      <a href="../swebench/" class="md-nav__link">
         
   
   
@@ -682,10 +684,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../usage/tencentdb/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TencentDB knowledge
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -701,6 +730,59 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        准备
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#swe-bench-ab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SWE-bench A/B
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        配置和结果
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -713,7 +795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage/programbench/" class="md-nav__link">
+      <a href="../programbench/" class="md-nav__link">
         
   
   
@@ -741,7 +823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage/inspector/" class="md-nav__link">
+      <a href="../inspector/" class="md-nav__link">
         
   
   
@@ -769,7 +851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage/output_files/" class="md-nav__link">
+      <a href="../output_files/" class="md-nav__link">
         
   
   
@@ -1011,7 +1093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../global_configuration/" class="md-nav__link">
+      <a href="../../advanced/global_configuration/" class="md-nav__link">
         
   
   
@@ -1039,7 +1121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../yaml_configuration/" class="md-nav__link">
+      <a href="../../advanced/yaml_configuration/" class="md-nav__link">
         
   
   
@@ -1072,10 +1154,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -1096,11 +1176,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_6" checked="">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_6">
         
           
           <label class="md-nav__link" for="__nav_1_6" id="__nav_1_6_label" tabindex="0">
@@ -1121,7 +1201,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1139,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage/python_bindings/" class="md-nav__link">
+      <a href="../python_bindings/" class="md-nav__link">
         
   
   
@@ -1164,19 +1244,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../advanced/control_flow/" class="md-nav__link">
         
   
   
@@ -1192,7 +1263,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1205,7 +1275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cookbook/" class="md-nav__link">
+      <a href="../../advanced/cookbook/" class="md-nav__link">
         
   
   
@@ -1233,7 +1303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../environments/" class="md-nav__link">
+      <a href="../../advanced/environments/" class="md-nav__link">
         
   
   
@@ -1261,7 +1331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../v2_migration/" class="md-nav__link">
+      <a href="../../advanced/v2_migration/" class="md-nav__link">
         
   
   
@@ -2557,6 +2627,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        准备
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#swe-bench-ab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SWE-bench A/B
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        配置和结果
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2573,7 +2684,7 @@
 
 
   
-    <a href="https://github.com/SWE-agent/mini-SWE-agent/edit/main/docs/advanced/control_flow.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/SWE-agent/mini-SWE-agent/edit/main/docs/usage/tencentdb.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
     </a>
@@ -2581,323 +2692,90 @@
   
 
 
-<h1 id="agent-control-flow">Agent control flow</h1>
-<div class="admonition note">
-<p class="admonition-title">Understanding AI agent basics</p>
-<p>We also recently created a long tutorial on understanding the basics of building an AI agent: <a href="https://minimal-agent.com">View it here</a>.</p>
-</div>
-<div class="admonition abstract">
-<p class="admonition-title">Understanding the default agent</p>
-<ul>
-<li>This guide shows the control flow of the default agent.</li>
-<li>After this, you're ready to <a href="../cookbook/">remix &amp; extend mini</a></li>
-</ul>
-</div>
-<p>The following diagram shows the control flow of the mini agent:</p>
-<pre class="mermaid"><code>flowchart TD
-    subgraph run["&lt;b&gt;&lt;code&gt;Agent.run(task)&lt;/code&gt;&lt;/b&gt;"]
-        direction TB
-        A["&lt;b&gt;&lt;code&gt;Initialize messages&lt;/code&gt;&lt;/b&gt;"] --&gt; B
-        B["&lt;b&gt;&lt;code&gt;Agent.step&lt;/code&gt;&lt;/b&gt;"] --&gt; C{"&lt;b&gt;&lt;code&gt;Exception?&lt;/code&gt;&lt;/b&gt;"}
-        C --&gt;|Yes| D["&lt;b&gt;&lt;code&gt;Agent.add_messages&lt;/code&gt;&lt;/b&gt;&lt;br/&gt;(also re-raises exceptions that don't inherit from InterruptAgentFlow)"]
-        C --&gt;|No| E{"&lt;b&gt;&lt;code&gt;messages[-1].role == exit?&lt;/code&gt;&lt;/b&gt;"}
-        D --&gt; E
-        E --&gt;|No| B
-        E --&gt;|Yes| F["&lt;b&gt;&lt;code&gt;Return result&lt;/code&gt;&lt;/b&gt;"]
-    end
-
-    subgraph step["&lt;b&gt;&lt;code&gt;Agent.step()&lt;/code&gt;&lt;/b&gt;&lt;br&gt;Single iteration&lt;/br&gt;"]
-        direction TB
-        S1["&lt;b&gt;&lt;code&gt;Agent.query&lt;/code&gt;&lt;/b&gt;"] --&gt; S2["&lt;b&gt;&lt;code&gt;Agent.execute_actions&lt;/code&gt;&lt;/b&gt;"]
-    end
-
-    subgraph query["&lt;b&gt;&lt;code&gt;Agent.query()&lt;/code&gt;&lt;/b&gt;&lt;br&gt;Also checks for cost limits&lt;/br&gt;&lt;br&gt;&lt;/br&gt;"]
-        direction TB
-        Q3["&lt;b&gt;&lt;code&gt;Model.query&lt;/code&gt;&lt;/b&gt;"] --&gt; Q4["&lt;b&gt;&lt;code&gt;Agent.add_messages&lt;/code&gt;&lt;/b&gt;"]
-    end
-
-    subgraph execute_actions["&lt;b&gt;&lt;code&gt;Agent.execute_actions(message)&lt;/code&gt;&lt;/b&gt;"]
-        direction TB
-        E2["&lt;b&gt;&lt;code&gt;Environment.execute&lt;/code&gt;&lt;/b&gt;&lt;br/&gt;Also raises the Submitted exception if we're done"] --&gt; E3["&lt;b&gt;&lt;code&gt;Model.format_observation_messages&lt;/code&gt;&lt;/b&gt;"]
-        E3 --&gt; E4["&lt;b&gt;&lt;code&gt;Agent.add_messages&lt;/code&gt;&lt;/b&gt;"]
-    end
-
-    B -.-&gt; step
-    S1 -.-&gt; query
-    S2 -.-&gt; execute_actions</code></pre>
-<p>And here is the code that implements it:</p>
-<details class="note">
-<summary>Default agent class</summary>
-<ul>
-<li><a href="https://github.com/swe-agent/mini-swe-agent/blob/main/src/minisweagent/agents/default.py">Read on GitHub</a></li>
-<li><a href="../../reference/agents/default/">API reference</a></li>
-</ul>
-<div class="highlight"><pre><span></span><code><span class="sd">"""Basic agent class. See https://mini-swe-agent.com/latest/advanced/control_flow/ for visual explanation</span>
-<span class="sd">or https://minimal-agent.com for a tutorial on the basic building principles.</span>
-<span class="sd">"""</span>
-
-<span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">traceback</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
-
-<span class="kn">from</span><span class="w"> </span><span class="nn">jinja2</span><span class="w"> </span><span class="kn">import</span> <span class="n">StrictUndefined</span><span class="p">,</span> <span class="n">Template</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">pydantic</span><span class="w"> </span><span class="kn">import</span> <span class="n">BaseModel</span>
-
-<span class="kn">from</span><span class="w"> </span><span class="nn">minisweagent</span><span class="w"> </span><span class="kn">import</span> <span class="n">Environment</span><span class="p">,</span> <span class="n">Model</span><span class="p">,</span> <span class="n">__version__</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">minisweagent.exceptions</span><span class="w"> </span><span class="kn">import</span> <span class="n">FormatError</span><span class="p">,</span> <span class="n">InterruptAgentFlow</span><span class="p">,</span> <span class="n">LimitsExceeded</span><span class="p">,</span> <span class="n">TimeExceeded</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">minisweagent.utils.serialize</span><span class="w"> </span><span class="kn">import</span> <span class="n">recursive_merge</span>
-
-
-<span class="k">class</span><span class="w"> </span><span class="nc">AgentConfig</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">"""Check the config files in minisweagent/config for example settings."""</span>
-
-    <span class="n">system_template</span><span class="p">:</span> <span class="nb">str</span>
-<span class="w">    </span><span class="sd">"""Template for the system message (the first message)."""</span>
-    <span class="n">instance_template</span><span class="p">:</span> <span class="nb">str</span>
-<span class="w">    </span><span class="sd">"""Template for the first user message specifying the task (the second message overall)."""</span>
-    <span class="n">step_limit</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="w">    </span><span class="sd">"""Maximum number of steps the agent can take."""</span>
-    <span class="n">cost_limit</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">3.0</span>
-<span class="w">    </span><span class="sd">"""Stop agent after exceeding (!) this cost."""</span>
-    <span class="n">wall_time_limit_seconds</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="w">    </span><span class="sd">"""Stop agent after this many seconds of wall-clock time. 0 means no limit."""</span>
-    <span class="n">max_consecutive_format_errors</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="w">    </span><span class="sd">"""Exit after this many format errors in a row (0 = no limit)."""</span>
-    <span class="n">output_path</span><span class="p">:</span> <span class="n">Path</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="w">    </span><span class="sd">"""Save the trajectory to this path."""</span>
-
-
-<span class="k">class</span><span class="w"> </span><span class="nc">DefaultAgent</span><span class="p">:</span>
-    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">:</span> <span class="n">Model</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">Environment</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">config_class</span><span class="p">:</span> <span class="nb">type</span> <span class="o">=</span> <span class="n">AgentConfig</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">"""See the `AgentConfig` class for permitted keyword arguments."""</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">config</span> <span class="o">=</span> <span class="n">config_class</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">model</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">env</span> <span class="o">=</span> <span class="n">env</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">extra_template_vars</span> <span class="o">=</span> <span class="p">{}</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s2">"agent"</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">cost</span> <span class="o">=</span> <span class="mf">0.0</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">n_calls</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">n_consecutive_format_errors</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">_start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">get_template_vars</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">recursive_merge</span><span class="p">(</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">model_dump</span><span class="p">(),</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">get_template_vars</span><span class="p">(),</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">get_template_vars</span><span class="p">(),</span>
-            <span class="p">{</span>
-                <span class="s2">"n_model_calls"</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_calls</span><span class="p">,</span>
-                <span class="s2">"model_cost"</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">cost</span><span class="p">,</span>
-                <span class="s2">"elapsed_seconds"</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">_start_time</span><span class="p">),</span>
-            <span class="p">},</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">extra_template_vars</span><span class="p">,</span>
-            <span class="n">kwargs</span><span class="p">,</span>
-        <span class="p">)</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">_render_template</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">template</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">Template</span><span class="p">(</span><span class="n">template</span><span class="p">,</span> <span class="n">undefined</span><span class="o">=</span><span class="n">StrictUndefined</span><span class="p">)</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="o">**</span><span class="bp">self</span><span class="o">.</span><span class="n">get_template_vars</span><span class="p">())</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">add_messages</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">messages</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span>  <span class="c1"># set log level to debug to see</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span>
-        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">handle_uncaught_exception</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span> <span class="ne">Exception</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">format_message</span><span class="p">(</span>
-                <span class="n">role</span><span class="o">=</span><span class="s2">"exit"</span><span class="p">,</span>
-                <span class="n">content</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">),</span>
-                <span class="n">extra</span><span class="o">=</span><span class="p">{</span>
-                    <span class="s2">"exit_status"</span><span class="p">:</span> <span class="nb">type</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span>
-                    <span class="s2">"submission"</span><span class="p">:</span> <span class="s2">""</span><span class="p">,</span>
-                    <span class="s2">"exception_str"</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">),</span>
-                    <span class="s2">"traceback"</span><span class="p">:</span> <span class="n">traceback</span><span class="o">.</span><span class="n">format_exc</span><span class="p">(),</span>
-                <span class="p">},</span>
-            <span class="p">)</span>
-        <span class="p">)</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">""</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">        </span><span class="sd">"""Run step() until agent is finished. Returns dictionary with exit_status, submission keys."""</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">extra_template_vars</span> <span class="o">|=</span> <span class="p">{</span><span class="s2">"task"</span><span class="p">:</span> <span class="n">task</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">}</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">messages</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">format_message</span><span class="p">(</span><span class="n">role</span><span class="o">=</span><span class="s2">"system"</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_render_template</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">system_template</span><span class="p">)),</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">format_message</span><span class="p">(</span><span class="n">role</span><span class="o">=</span><span class="s2">"user"</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_render_template</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">instance_template</span><span class="p">)),</span>
-        <span class="p">)</span>
-        <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-            <span class="k">try</span><span class="p">:</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">step</span><span class="p">()</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">n_consecutive_format_errors</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># reset on any clean step</span>
-            <span class="k">except</span> <span class="n">FormatError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-                <span class="c1"># The call was billed before parsing failed, so query() never got to charge it.</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">cost</span> <span class="o">+=</span> <span class="n">e</span><span class="o">.</span><span class="n">messages</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"extra"</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"cost"</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">n_consecutive_format_errors</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">max_consecutive_format_errors</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_consecutive_format_errors</span><span class="p">:</span>
-                    <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span>
-                        <span class="o">*</span><span class="n">e</span><span class="o">.</span><span class="n">messages</span><span class="p">,</span>
-                        <span class="p">{</span>
-                            <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"exit"</span><span class="p">,</span>
-                            <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"RepeatedFormatError"</span><span class="p">,</span>
-                            <span class="s2">"extra"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"exit_status"</span><span class="p">:</span> <span class="s2">"RepeatedFormatError"</span><span class="p">,</span> <span class="s2">"submission"</span><span class="p">:</span> <span class="s2">""</span><span class="p">},</span>
-                        <span class="p">},</span>
-                    <span class="p">)</span>
-                <span class="k">else</span><span class="p">:</span>
-                    <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span><span class="o">*</span><span class="n">e</span><span class="o">.</span><span class="n">messages</span><span class="p">)</span>
-            <span class="k">except</span> <span class="n">InterruptAgentFlow</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span><span class="o">*</span><span class="n">e</span><span class="o">.</span><span class="n">messages</span><span class="p">)</span>
-            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">handle_uncaught_exception</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
-                <span class="k">raise</span>
-            <span class="k">finally</span><span class="p">:</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">output_path</span><span class="p">)</span>
-            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"role"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"exit"</span><span class="p">:</span>
-                <span class="k">break</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"extra"</span><span class="p">,</span> <span class="p">{})</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">step</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
-<span class="w">        </span><span class="sd">"""Query the LM, execute actions."""</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">execute_actions</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">())</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">query</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">        </span><span class="sd">"""Query the model and return model messages. Override to add hooks."""</span>
-        <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">step_limit</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_calls</span> <span class="ow">or</span> <span class="mi">0</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">cost_limit</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">cost</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="n">LimitsExceeded</span><span class="p">(</span>
-                <span class="p">{</span>
-                    <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"exit"</span><span class="p">,</span>
-                    <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"LimitsExceeded"</span><span class="p">,</span>
-                    <span class="s2">"extra"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"exit_status"</span><span class="p">:</span> <span class="s2">"LimitsExceeded"</span><span class="p">,</span> <span class="s2">"submission"</span><span class="p">:</span> <span class="s2">""</span><span class="p">},</span>
-                <span class="p">}</span>
-            <span class="p">)</span>
-        <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">wall_time_limit_seconds</span> <span class="o">&lt;=</span> <span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">_start_time</span><span class="p">):</span>
-            <span class="k">raise</span> <span class="n">TimeExceeded</span><span class="p">(</span>
-                <span class="p">{</span>
-                    <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"exit"</span><span class="p">,</span>
-                    <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"TimeExceeded"</span><span class="p">,</span>
-                    <span class="s2">"extra"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"exit_status"</span><span class="p">:</span> <span class="s2">"TimeExceeded"</span><span class="p">,</span> <span class="s2">"submission"</span><span class="p">:</span> <span class="s2">""</span><span class="p">},</span>
-                <span class="p">}</span>
-            <span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">n_calls</span> <span class="o">+=</span> <span class="mi">1</span>
-        <span class="n">message</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">cost</span> <span class="o">+=</span> <span class="n">message</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"extra"</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"cost"</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">message</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">execute_actions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
-<span class="w">        </span><span class="sd">"""Execute actions in message, add observation messages, return them."""</span>
-        <span class="n">outputs</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">action</span><span class="p">)</span> <span class="k">for</span> <span class="n">action</span> <span class="ow">in</span> <span class="n">message</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"extra"</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"actions"</span><span class="p">,</span> <span class="p">[])]</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">format_observation_messages</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">outputs</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_template_vars</span><span class="p">()))</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">serialize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">extra_dicts</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">        </span><span class="sd">"""Serialize agent state to a json-compatible nested dictionary for saving."""</span>
-        <span class="n">last_message</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">messages</span> <span class="k">else</span> <span class="p">{}</span>
-        <span class="n">last_extra</span> <span class="o">=</span> <span class="n">last_message</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"extra"</span><span class="p">,</span> <span class="p">{})</span>
-        <span class="n">agent_data</span> <span class="o">=</span> <span class="p">{</span>
-            <span class="s2">"info"</span><span class="p">:</span> <span class="p">{</span>
-                <span class="s2">"model_stats"</span><span class="p">:</span> <span class="p">{</span>
-                    <span class="s2">"instance_cost"</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">cost</span><span class="p">,</span>
-                    <span class="s2">"api_calls"</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_calls</span><span class="p">,</span>
-                <span class="p">},</span>
-                <span class="s2">"config"</span><span class="p">:</span> <span class="p">{</span>
-                    <span class="s2">"agent"</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">model_dump</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">"json"</span><span class="p">),</span>
-                    <span class="s2">"agent_type"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__module__</span><span class="si">}</span><span class="s2">.</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
-                <span class="p">},</span>
-                <span class="s2">"mini_version"</span><span class="p">:</span> <span class="n">__version__</span><span class="p">,</span>
-                <span class="s2">"exit_status"</span><span class="p">:</span> <span class="n">last_extra</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"exit_status"</span><span class="p">,</span> <span class="s2">""</span><span class="p">),</span>
-                <span class="s2">"submission"</span><span class="p">:</span> <span class="n">last_extra</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"submission"</span><span class="p">,</span> <span class="s2">""</span><span class="p">),</span>
-            <span class="p">},</span>
-            <span class="s2">"messages"</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">,</span>
-            <span class="s2">"trajectory_format"</span><span class="p">:</span> <span class="s2">"mini-swe-agent-1.1"</span><span class="p">,</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="n">recursive_merge</span><span class="p">(</span><span class="n">agent_data</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">serialize</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">serialize</span><span class="p">(),</span> <span class="o">*</span><span class="n">extra_dicts</span><span class="p">)</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="n">Path</span> <span class="o">|</span> <span class="kc">None</span><span class="p">,</span> <span class="o">*</span><span class="n">extra_dicts</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">        </span><span class="sd">"""Save the trajectory of the agent to a file if path is given. Returns full serialized data.</span>
-<span class="sd">        You can pass additional dictionaries with extra data to be (recursively) merged into the output data.</span>
-<span class="sd">        """</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="o">*</span><span class="n">extra_dicts</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">path</span><span class="p">:</span>
-            <span class="n">path</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-            <span class="n">path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
-        <span class="k">return</span> <span class="n">data</span>
+<h1 id="tencentdb">TencentDB 知识库对照评测</h1>
+<p><code>tencentdb</code> 模型适配器调用 test-TencentDB 的
+<code>/mini-swe-agent/&lt;space_id&gt;/v1/chat/completions</code> API。
+默认关闭知识库；设为 <code>knowledge_enabled: true</code> 后，代理注入所选 Agent 绑定的
+wiki / code-graph 工具说明，模型通过原有 bash 工具按需调用知识服务。</p>
+<p>两组使用同一代理、模型、任务提示和工具格式。该 API 不写入会话记忆或提取技能，
+适用于比较接入知识库与不接入知识库的任务效果。</p>
+<h2 id="_1">准备</h2>
+<p>先在 MemoryPanel 中获取业务用户 Key、团队 ID 和该用户拥有的 Agent ID，
+给 Agent 绑定知识库并等待处理完成。不要将 Key 写进 YAML 或提交到 Git。</p>
+<p>PowerShell 中设置：</p>
+<div class="highlight"><pre><span></span><code><span class="nv">$env:TDAI_MEMORY_KEY</span> <span class="p">=</span> <span class="s1">'&lt;MemoryPanel 业务用户 Key&gt;'</span>
+<span class="nv">$env:TDAI_TEAM_ID</span> <span class="p">=</span> <span class="s1">'&lt;team-id&gt;'</span>
+<span class="nv">$env:TDAI_AGENT_ID</span> <span class="p">=</span> <span class="s1">'&lt;agent-id&gt;'</span>
+<span class="nv">$env:TDAI_PROXY_URL</span> <span class="p">=</span> <span class="s1">'http://127.0.0.1:8096'</span>
+<span class="nv">$env:TDAI_SPACE_ID</span> <span class="p">=</span> <span class="s1">'default'</span>
+<span class="nv">$env:TDAI_KNOWLEDGE_URL</span> <span class="p">=</span> <span class="s1">'http://host.docker.internal:8424/v3'</span>
 </code></pre></div>
-</details>
-<p>Essentially, <code>DefaultAgent.run</code> calls <code>DefaultAgent.step</code> in a loop until the agent has finished its task.</p>
-<p>The <code>step</code> method is the core of the agent:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">step</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
-    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">execute_actions</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">())</span>
+<p><code>TDAI_PROXY_URL</code> 由运行 Python 的主机访问；<code>TDAI_KNOWLEDGE_URL</code> 由执行 bash 的环境访问。
+后者适用于 Docker Desktop 的 SWE-bench 容器。在宿主机本地运行 bash 时可改成
+<code>http://127.0.0.1:8424/v3</code>；远程环境需要可达的部署地址。不要把仅限 Compose 网络的
+<code>memory-hub</code> 主机名用于独立评测容器。可先在目标容器中运行
+<code>curl -f http://host.docker.internal:8424/health</code> 检查连通性。</p>
+<h2 id="swe-bench-ab">SWE-bench A/B</h2>
+<p>以下命令在 mini-swe-agent 仓库运行。将模型占位符改为代理实际支持的同一模型名称。
+若已有模型参数 YAML，将它放在 <code>swebench.yaml</code> 之后、<code>tencentdb.yaml</code> 之前，
+并用 <code>-m</code> 确保两组使用同一个模型。适配器覆盖原配置里的 API 地址和凭证。</p>
+<div class="highlight"><pre><span></span><code><span class="n">python</span> <span class="n">-m</span> <span class="n">minisweagent</span><span class="p">.</span><span class="n">run</span><span class="p">.</span><span class="n">benchmarks</span><span class="p">.</span><span class="n">swebench</span> <span class="p">-</span><span class="n">-subset</span> <span class="n">lite</span> <span class="p">-</span><span class="n">-split</span> <span class="n">test</span> <span class="p">-</span><span class="n">-slice</span> <span class="n">0</span><span class="p">:</span><span class="n">5</span> <span class="n">-w</span> <span class="n">1</span> <span class="n">-m</span> <span class="s1">'openai/&lt;模型名称&gt;'</span> <span class="n">-c</span> <span class="n">swebench</span><span class="p">.</span><span class="n">yaml</span> <span class="n">-c</span> <span class="n">tencentdb</span><span class="p">.</span><span class="n">yaml</span> <span class="n">-c</span> <span class="n">model</span><span class="p">.</span><span class="n">knowledge_enabled</span><span class="p">=</span><span class="n">false</span> <span class="n">-o</span> <span class="n">results</span><span class="p">/</span><span class="n">no-kb</span>
+<span class="n">python</span> <span class="n">-m</span> <span class="n">minisweagent</span><span class="p">.</span><span class="n">run</span><span class="p">.</span><span class="n">benchmarks</span><span class="p">.</span><span class="n">swebench</span> <span class="p">-</span><span class="n">-subset</span> <span class="n">lite</span> <span class="p">-</span><span class="n">-split</span> <span class="n">test</span> <span class="p">-</span><span class="n">-slice</span> <span class="n">0</span><span class="p">:</span><span class="n">5</span> <span class="n">-w</span> <span class="n">1</span> <span class="n">-m</span> <span class="s1">'openai/&lt;模型名称&gt;'</span> <span class="n">-c</span> <span class="n">swebench</span><span class="p">.</span><span class="n">yaml</span> <span class="n">-c</span> <span class="n">tencentdb</span><span class="p">.</span><span class="n">yaml</span> <span class="n">-c</span> <span class="n">model</span><span class="p">.</span><span class="n">knowledge_enabled</span><span class="p">=</span><span class="n">true</span> <span class="n">-o</span> <span class="n">results</span><span class="p">/</span><span class="n">with-kb</span>
 </code></pre></div>
-<p>It does the following:</p>
-<ol>
-<li>Queries the model for a response based on the current messages (<code>DefaultAgent.query</code>, calling <code>Model.query</code>)</li>
-<li>Executes all actions in the response (<code>DefaultAgent.execute_actions</code>, calling <code>Environment.execute</code> for each action)</li>
-<li>Formats the observation messages via <code>Model.format_observation_messages</code></li>
-<li>Adds the observations to the messages</li>
-</ol>
-<p>Here's <code>query</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">query</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-    <span class="c1"># ... limit checks ...</span>
-    <span class="n">message</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">)</span>
-    <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">message</span>
-</code></pre></div>
-<p>And <code>execute_actions</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">execute_actions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
-    <span class="n">outputs</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">env</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">action</span><span class="p">)</span> <span class="k">for</span> <span class="n">action</span> <span class="ow">in</span> <span class="n">message</span><span class="o">.</span><span class="n">get</span><span class="o">...</span>
-    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">format_observation_messages</span><span class="p">(</span><span class="o">...</span><span class="p">))</span>
-</code></pre></div>
-<p>The interesting bit is how we handle error conditions and the finish condition:
-This uses exceptions that inherit from <code>InterruptAgentFlow</code>. All these exceptions carry messages that get added to the trajectory.</p>
-<ul>
-<li>
-<p><code>Submitted</code> is raised when the agent has finished its task. For example, the environment checks if the command output starts with a magic string:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># In Environment.execute</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">_check_finished</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output</span><span class="p">:</span> <span class="nb">dict</span><span class="p">):</span>
-    <span class="n">lines</span> <span class="o">=</span> <span class="n">output</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"output"</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">lstrip</span><span class="p">()</span><span class="o">.</span><span class="n">splitlines</span><span class="p">(</span><span class="n">keepends</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">lines</span> <span class="ow">and</span> <span class="n">lines</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">==</span> <span class="s2">"COMPLETE_TASK_AND_SUBMIT_FINAL_OUTPUT"</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="n">Submitted</span><span class="p">({</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"exit"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="o">...</span><span class="p">,</span> <span class="s2">"extra"</span><span class="p">:</span> <span class="p">{</span><span class="o">...</span><span class="p">}})</span>
-</code></pre></div>
-</li>
-<li>
-<p><code>LimitsExceeded</code> is raised when we hit a cost or step limit</p>
-</li>
-<li><code>FormatError</code> is raised when the output from the LM is not in the expected format</li>
-<li><code>TimeoutError</code> is raised when the action took too long to execute</li>
-<li><code>UserInterruption</code> is raised when the user interrupts the agent</li>
-</ul>
-<p>The <code>DefaultAgent.run</code> method catches these exceptions and handles them by adding the corresponding messages to the messages list. The loop continues until a message with <code>role="exit"</code> is added.</p>
-<div class="highlight"><pre><span></span><code><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">step</span><span class="p">()</span>
-    <span class="k">except</span> <span class="n">InterruptAgentFlow</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">add_messages</span><span class="p">(</span><span class="o">*</span><span class="n">e</span><span class="o">.</span><span class="n">messages</span><span class="p">)</span>
-    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">messages</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"role"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"exit"</span><span class="p">:</span>
-        <span class="k">break</span>
-</code></pre></div>
-<p>Using exceptions for the control flow is a lot easier than passing around flags and states, especially when extending or subclassing the agent.</p>
-<div class="grid cards">
-  <a href="https://github.com/SWE-agent/SWE-agent/issues/new" class="nav-card-link">
-    <div class="nav-card">
-      <div class="nav-card-header">
-        <span class="material-icons nav-card-icon">bug_report</span>
-        <span class="nav-card-title">Something broken/unclear?</span>
-      </div>
-      <p class="nav-card-description">Open an issue on GitHub!</p>
-    </div>
-  </a>
-
-  <a href="https://join.slack.com/t/swe-bench/shared_invite/zt-36pj9bu5s-o3_yXPZbaH2wVnxnss1EkQ" class="nav-card-link">
-    <div class="nav-card">
-      <div class="nav-card-header">
-        <span class="material-icons nav-card-icon">help</span>
-        <span class="nav-card-title">Open-ended discussions</span>
-      </div>
-      <p class="nav-card-description">Join our Slack!</p>
-    </div>
-  </a>
-</div>
+<p><code>tencentdb.yaml</code> 只是覆盖文件，必须同时加载基础配置。
+默认 <code>cost_tracking: ignore_errors</code> 允许未登记价格的代理模型运行；这类模型的费用可能记为 0，
+应保留 <code>step_limit</code>，并在比较费用前配置 LiteLLM 模型价格。
+固定数据集、实例顺序、模型参数、知识库版本及环境；分别保存 <code>preds.json</code> 和轨迹，
+之后使用 SWE-bench 的评测流程判断补丁是否解决问题。不要把未成功运行的实例视为模型失败。</p>
+<h2 id="_2">配置和结果</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>默认值 / 说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>model_class</code></td>
+<td><code>tencentdb</code></td>
+</tr>
+<tr>
+<td><code>knowledge_enabled</code></td>
+<td><code>false</code>；由 YAML/CLI 显式控制，不受环境隐式切换</td>
+</tr>
+<tr>
+<td><code>proxy_url</code></td>
+<td><code>TDAI_PROXY_URL</code> 或 <code>http://127.0.0.1:8096</code></td>
+</tr>
+<tr>
+<td><code>space_id</code></td>
+<td><code>TDAI_SPACE_ID</code> 或 <code>default</code></td>
+</tr>
+<tr>
+<td><code>team_id</code> / <code>agent_id</code></td>
+<td>环境变量；启用知识库时必填</td>
+</tr>
+<tr>
+<td><code>knowledge_url</code></td>
+<td><code>TDAI_KNOWLEDGE_URL</code>；空值使用服务端资源登记地址</td>
+</tr>
+<tr>
+<td><code>api_key_env</code></td>
+<td>保存用户 Key 的环境变量名，默认 <code>TDAI_MEMORY_KEY</code></td>
+</tr>
+<tr>
+<td><code>session_id</code></td>
+<td>默认每个实例生成 UUID；同一模型重用于新任务时重新生成</td>
+</tr>
+</tbody>
+</table>
+<p>显式 YAML 字段优先于环境变量。批量评测不要固定 <code>session_id</code>，仅恢复特定会话时设置它。
+轨迹 <code>info.tencentdb</code> 记录实际会话 ID 和知识库开关；<code>info.config.model</code> 保存有效配置，
+不保存环境中的 API Key。常规 <code>litellm</code> 模型类和未加载本覆盖文件的运行方式保持原有行为。</p>
+<p>代理会对错误配置返回明确错误：400 表示请求参数不完整，401/403 表示鉴权或团队/Agent
+不匹配，409 表示无可用绑定，503 表示知识服务不可用或未启用。知识库开启组不会静默退化成关闭组。
+开启表示工具已提供给模型；是否实际调用及调用效果需要查看轨迹中的 bash 请求和知识服务日志。</p>
 
 
 
@@ -2965,7 +2843,7 @@ This uses exceptions that inherit from <code>InterruptAgentFlow</code>. All thes
       <nav class="md-footer__inner md-grid" aria-label="Footer">
         
           
-          <a href="../../usage/python_bindings/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Basic Python bindings">
+          <a href="../swebench/" class="md-footer__link md-footer__link--prev" aria-label="Previous: SWE-bench">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
@@ -2975,20 +2853,20 @@ This uses exceptions that inherit from <code>InterruptAgentFlow</code>. All thes
                 Previous
               </span>
               <div class="md-ellipsis">
-                Basic Python bindings
+                SWE-bench
               </div>
             </div>
           </a>
         
         
           
-          <a href="../cookbook/" class="md-footer__link md-footer__link--next" aria-label="Next: Subclassing and more">
+          <a href="../programbench/" class="md-footer__link md-footer__link--next" aria-label="Next: ProgramBench">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Subclassing and more
+                ProgramBench
               </div>
             </div>
             <div class="md-footer__button md-icon">

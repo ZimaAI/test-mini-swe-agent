@@ -200,4 +200,8 @@
          <loc>https://mini-swe-agent.com/latest/usage/swebench/</loc>
          <lastmod>2026-10-05</lastmod>
     </url>
+    <url>
+         <loc>https://mini-swe-agent.com/latest/usage/tencentdb/</loc>
+         <lastmod>2026-10-05</lastmod>
+    </url>
 </urlset>
